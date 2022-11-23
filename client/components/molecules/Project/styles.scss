@@ -1,0 +1,58 @@
+.project-card {
+  float: left;
+  width: 140px;
+  height: 172px;
+  box-shadow: 0 1px 4px rgb(1 1 1 / 15%);
+  margin: 0 0 60px 40px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  background-color: whitesmoke;
+  cursor: pointer;
+  text-decoration: none;
+
+  .project-main-title {
+    font-size: large;
+    padding: 0 1rem;
+    color: black;
+    overflow: hidden;
+  }
+  .title-edit {
+    background-color: whitesmoke;
+    border: none;
+    text-align: center;
+  }
+  .title-edit:focus {
+    background-color: whitesmoke;
+    border: none;
+    text-align: center;
+  }
+}
+.project-content {
+  width: 100%;
+}
+
+.project-actions {
+  position: relative;
+  padding: 1rem 2rem 0 2rem;
+  width: 100%;
+  z-index: 100;
+  opacity: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.project-card:hover {
+  .project-actions {
+    border-top: 1px solid grey;
+    position: relative;
+    opacity: 100%;
+    padding: 1rem 2rem 0 2rem;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

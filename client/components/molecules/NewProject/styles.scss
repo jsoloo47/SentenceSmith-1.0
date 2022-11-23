@@ -1,0 +1,21 @@
+.new-prjct {
+  position: relative;
+  float: left;
+  width: 140px;
+  height: 172px;
+  box-shadow: 0 1px 4px rgb(1 1 1 / 15%);
+  margin: 0 0 60px 40px;
+  cursor: pointer;
+
+  background-image: url(./images/undraw-addFile.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  .content {
+    font-size: large;
+    color: #fff;
+  }
+}

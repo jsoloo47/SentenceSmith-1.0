@@ -1,0 +1,17 @@
+.root {
+  text-align: center;
+}
+.dash {
+  .container {
+    display: flex;
+
+    .col-left {
+      width: 30%;
+      padding: 2rem;
+    }
+    .col-right {
+      width: 70%;
+      padding: 2rem;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.signup-container {
+  margin: 3rem auto;
+  padding: 2rem 0;
+  max-width: 673px;
+  min-height: 558px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-login;
+  color: white;
+  font-family: $font-family;
+  .title {
+    color: white;
+  }
+  .info {
+    // This is the sub text under title
+    max-width: 384px;
+    margin-bottom: 2rem;
+    font-size: small;
+    font-weight: 500;
+  }
+  .field {
+    width: 50%;
+  }
+  .help {
+    font-size: 1.2rem;
+  }
+  .acc-alr {
+    font-size: 1.1rem;
+  }
+  .signup-btn {
+    margin-top: 2rem;
+    color: white;
+    background-color: $color-subtext;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  .middle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .dotted {
+      width: 184px;
+      border: 0.5px dashed #ffffff;
+    }
+
+    span {
+      color: white;
+      padding: 0.5rem 1rem;
+      margin: 1rem 3rem;
+    }
+  }
+  .social-btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0rem;
+    background: $color-subtext;
+    color: white;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    font-family: $font-family;
+    font-size: small;
+    font-weight: $weight-semibold;
+  }
+}

@@ -1,0 +1,8 @@
+.root {
+  background-color: #262626;
+  padding: 1rem 1.5rem;
+}
+
+.content a:visited {
+  color: #000;
+}

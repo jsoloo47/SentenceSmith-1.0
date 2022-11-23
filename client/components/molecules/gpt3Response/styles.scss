@@ -1,0 +1,46 @@
+.res-card {
+  background-color: #ff8a71;
+  border: solid 1px black;
+  border-radius: 20px;
+
+  color: black;
+
+  display: flex;
+
+  font-size: 18px;
+  height: 140px;
+  justify-content: center;
+
+  overflow-y: auto;
+
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+// .res-card-focus {
+//   position: absolute;
+
+//   margin-left: auto;
+//   margin-right: auto;
+//   left: 0;
+//   right: 0;
+
+//   width: 50%;
+
+//   background-color: #ff8a71;
+//   border: solid 1px black;
+//   border-radius: 20px;
+
+//   color: black;
+
+//   display: flex;
+
+//   font-size: 18px;
+//   height: 140px;
+//   justify-content: center;
+
+//   overflow-y: auto;
+
+//   padding: 2rem;
+//   margin-bottom: 3rem;
+// }

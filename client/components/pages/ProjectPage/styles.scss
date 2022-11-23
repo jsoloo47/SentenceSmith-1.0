@@ -1,0 +1,30 @@
+.pg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  background-image: url(./images/MainCover.svg);
+  background-position: bottom -50px right -150px;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+}
+.project_title {
+  font-size: 24px;
+  color: azure;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 0;
+  margin-top: 2rem;
+}
+
+.project_title-edit {
+  background-color: inherit;
+  color: azure;
+  border: 0;
+  border-bottom: 2px solid white;
+  font-size: 24px;
+}

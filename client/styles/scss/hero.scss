@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-bg;
+}
+
+.header-content {
+  .title {
+    h1 {
+      font-family: $font-family;
+      font-weight: 800;
+      font-size: 62px;
+      line-height: 75px;
+      letter-spacing: -0.04em;
+      background: $gradient-text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      display: block;
+    }
+  }
+}

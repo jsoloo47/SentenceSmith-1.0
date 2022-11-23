@@ -1,0 +1,44 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+
+  h4 {
+    font-family: $font-family;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 17px;
+    color: #fff;
+  }
+
+  .col1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    svg {
+      padding: 1rem 0rem;
+      color: white;
+    }
+  }
+
+  div {
+    width: 250px;
+    margin: 1rem;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 30px;
+    font-family: $font-family;
+    color: #fff;
+
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
+}
