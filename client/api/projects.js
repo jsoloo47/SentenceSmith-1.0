@@ -7,6 +7,7 @@ export const postProject = (info) =>
     .send(info)
     .then(handleSuccess)
     .catch(handleError);
+
 export const getProjects = () =>
   request.get('/api/projects').then(handleSuccess).catch(handleError);
 

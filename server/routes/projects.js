@@ -34,6 +34,7 @@ router.get('/:id', requireAuth, async (req, res) => {
 router.post('/', requireAuth, (req, res) => {
   req.body.user = req.user.id;
 
+  console.log(req.body);
   const newProject = Project(req.body);
 
   console.log(newProject);

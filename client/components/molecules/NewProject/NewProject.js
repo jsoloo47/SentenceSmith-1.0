@@ -10,7 +10,6 @@ export default function AddTodo() {
 
   const handleNewPrjct = () => {
     dispatch(attemptNewPrjct());
-    console.log('newPrjct is being fired without be doing shit');
   };
 
   return (

@@ -47,8 +47,8 @@ export const attemptGetProject = (id) => (dispatch) =>
     })
     .catch(dispatchError(dispatch));
 
-export const attemptNewPrjct = () => (dispatch) =>
-  postProject()
+export const attemptNewPrjct = (title) => (dispatch) =>
+  postProject({ title })
     .then((data) => {
       const url = data.project._id;
       console.log(data.message);
