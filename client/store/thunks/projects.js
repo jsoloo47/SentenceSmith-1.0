@@ -23,7 +23,6 @@ import {
 import { dispatchError } from '_utils/api';
 
 export const attemptGetProjects = () => (dispatch) => {
-  console.log('attemptGetProjects');
   return getProjects()
     .then((data) => {
       const projects = R.map(
