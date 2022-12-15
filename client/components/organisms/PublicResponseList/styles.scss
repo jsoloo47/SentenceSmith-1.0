@@ -1,0 +1,27 @@
+.hero-response-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  overflow: auto;
+}
+
+.hero-response {
+  position: absolute;
+  height: 270px;
+  overflow: scroll; /* Make the child elements scrollable */
+  padding: 3rem;
+}
+// .hero-response:after {
+//   content: ''; // Create the pseudo-element container
+//   position: sticky;
+//   bottom: 0; // Position the gradient container at the bottom of the hero-response
+//   left: 0;
+//   right: 0;
+//   height: 50px; // Set the height of the gradient container
+//   background-image: linear-gradient(
+//     to bottom,
+//     transparent,
+//     #000
+//   ); // Add a gradient from transparent to black
+// }

@@ -6,7 +6,7 @@ const whatIsGPT3 =
 
 const featuresData = [
   {
-    title: 'Genereate creative marketing content',
+    title: 'Generate creative marketing content',
     text: 'Explore new ideas for marketing campaigns and iterate through the best content, copy, and design rapidly with the help of SentenceSmith.',
   },
   {

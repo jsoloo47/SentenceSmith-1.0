@@ -1,0 +1,30 @@
+.hero-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #ff5f6d 1.84%, #ffc371 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: block;
+  text-align: left;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+}
+.hero-input-col {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+}

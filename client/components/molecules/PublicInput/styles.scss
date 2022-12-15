@@ -1,0 +1,44 @@
+.hero-input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 24px 0;
+  width: 100%;
+}
+
+#hero-input {
+  background-color: #345c85;
+  color: white;
+  border: rgba(255, 255, 255, 1);
+  height: 177px;
+  font-size: 18px;
+}
+#hero-input::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.submit-container {
+  display: flex;
+  padding-top: 20px;
+}
+.submit-btn {
+  border-radius: 20px;
+  background-color: #ff8a71;
+  border: none;
+  color: black;
+
+  margin-right: 2rem;
+
+  font-size: 18px;
+
+  width: 130px;
+  height: 45px;
+  cursor: pointer;
+}
+.alt-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+}

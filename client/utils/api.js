@@ -22,6 +22,9 @@ export const dispatchError = (dispatch) => (res) => {
     dispatch(logout());
     dispatch(push('/login'));
   }
+  if (res.status === 429) {
+    console.log('429 error');
+  }
   console.log(res);
   RNC.addNotification({
     title: `Error: ${res.status}`,
